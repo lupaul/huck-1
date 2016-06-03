@@ -28,14 +28,23 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+<!--                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button> -->
+
                 <a class="navbar-brand" href="#page-top">
-                <div class="logo_area">
+
+                <picture>
+                 <source srcset="/images/LOGO-png2.png" media="(min-width: 768px)">
+                 <source srcset="/images/LOGO-png3.png" media="(max-width: 768px)">
+
+                  <img src"/images/LOGO-png3.png" alt="Logo">
+
+                </picture>
                 </div>
                 </a>
             </div>
@@ -73,15 +82,12 @@
     <header>
       <div class="row">
          <picture>
-         <source srcset="/images/header_background2.png" media="(min-width: 790px)">
-         <source srcset="/images/LOGO-png2.png" media="(max-width: 790px)">
+         <source srcset="/images/header_background2.png" media="(min-width: 480px)">
+         <source srcset="/images/header_background5.png" media="(max-width: 480px)">
 
          <img src"/images/header_background.png" alt="Logo">
 
          </picture>
-
-         <span class="header_name">熱血車手<br/>三角關係衣帽架</span><br/>
-
        </div>
     </header>
 
@@ -126,10 +132,13 @@
                 <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12">
                         <div class="text_area">
                         <br/><br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true">品名 / 熱血車手生活都很亂之三角關係衣帽架</span> <br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true">尺寸 / (寬)54cm x (長)54cm x(高)182cm</span> <br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true">材質 / 實木(厚度:18mm),鐵管(直徑27mm),6吋強力風扇(110v)
-                        </span> <br/><br/><br/><br/>
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                        <font size="4">品名 / 熱血車手生活都很亂之三角關係衣帽架</font> <br/><br/>
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                        <font size="4">尺寸 / (寬)54cm x (長)54cm x(高)182cm</font> <br/><br/>
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                        <font size="4">材質 / 實木(厚度:18mm),鐵管(直徑27mm),6吋強力風扇(110v)</font>
+                        <br/><br/><br/><br/>
 
                     </div>
                 </div>
@@ -145,8 +154,8 @@
                     <div class="text-center">
                        <h2> 簡易開關款 </h2>
                      <img src="/images/type2.png" alt="Logo"><br/>
-                     <h4>開關直接控制風扇</h4>
-                     <div class="price"> <h4>售價:4300元 </h4></div><br/><br/>
+                     <h3>開關直接控制風扇</h3>
+                     <div class="price"> <h3>售價:4300元 </h3></div><br/><br/>
                     </div>
                 </div>
 
@@ -154,8 +163,8 @@
                    <div class="text-center">
                    <h2> 懶人定時器款 </h2>
                     <img src="/images/type1.png" alt="Logo"><br/>
-                    <h4>自行設定風扇時間,最長11小時</h4>
-                    <div class="price"><h4>售價:4800元 </h4></div><br/><br/>
+                    <h3>自行設定風扇時間,最長11小時</h3>
+                    <div class="price"><h3>售價:4800元 </h3></div><br/><br/>
                    </div>
                 </div>
 
@@ -163,8 +172,8 @@
                    <div class="text-center">
                    <h2> 超殺配件! </h2>
                     <img src="/images/tube.png" alt="tube" class="tube_img"><br/><br/>
-                    <h4>金屬衣架 搭配 超級中導風管</h4>
-                    <div class="price"><h4>加購價只要: 1400元 </h4></div>
+                    <h3>金屬衣架 搭配 超級中導風管</h3>
+                    <div class="price"><h3>加購價只要: 1400元 </h3></div>
                    </div>
                 </div>
 
@@ -205,8 +214,8 @@
 
                 <h3>訂單</h3><br/><br/><br/>
 
-                    <div class="btn btn-primary">
-                        <%=link_to "填寫訂單" , "http://goo.gl/forms/JUwHZv4EaekmaTpt2",  style: "color:white"%>
+                    <div class="btn btn-primary btn-lg">
+                        <%=link_to "點我填寫訂單" , "http://goo.gl/forms/JUwHZv4EaekmaTpt2",  style: "color:white"%>
                     </div><br/><br/><br/>
                 </div>
 
@@ -220,14 +229,14 @@
                 </div>
                   <div class="row">
                    <div class="notice_area">
-                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                    以上為落地層架本體之售價, 不包含皮衣,安全帽,衣架或是其他配件
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <font size="4">以上為落地層架本體之售價, 不包含皮衣,安全帽,衣架或是其他配件</font>
+                     <br/><br/>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <font size="4">售價皆不含運, 運費400元(東部/離島另計), 可貨到付款手續費60元</font>
                     </span> <br/><br/>
-                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                    售價皆不含運, 運費400元(東部/離島另計), 可貨到付款手續費60元
-                    </span> <br/><br/>
-                    <span class="glyphicon glyphicon-star" aria-hidden="true">
-                    不接受議價, 哥賣的是熱血,是血汗錢
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <font size="4">不接受議價, 哥賣的是熱血,是血汗錢</font>
                     </span> <br/><br/><br/><br/>
                    </div>
                   </div>
@@ -276,8 +285,10 @@
                         <div class="row">
                           <div class="col-lg-6 col-lg-offset-4 col-md-6 col-md-offset-4  col-sm-6 col-sm-offset-4  col-xs-6 col-xs-offset-4 ">
                             <div class="aboutme">
-                                一位摩拓車技師/一點不正經<br/>
-                                一點粗曠/一點土炮<br/>
+                                一位摩拓車技師/<br/>
+                                一點不正經/<br/>
+                                一點粗曠/<br/>
+                                一點土炮/<br/>
                                 很多研究精神<br/>
                                 浩克手工, 勇往直前~<br/>
                             </div>
