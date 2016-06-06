@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   resources :welcome
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+    get 'product/triangle_1' => 'product#triangle_1'
+    get 'product/square_1' => 'product#square_1'
   # You can have the root of your site routed with "root"
    root 'welcome#index'
 

@@ -1,310 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-
-
-    <!-- <link href='http://product.myscoreboardapp.com/image/myscoreboard.ico' rel='myscoreboard icon'/> -->
-
-    <title>HUCK-浩克手工傢俬</title>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbarfoo">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-
-                <a class="navbar-brand" href="#page-top">
-
-                <picture>
-                 <source srcset="/images/LOGO-png2.png" media="(min-width: 768px)">
-                 <source srcset="/images/LOGO-png3.png" media="(max-width: 768px)">
-
-                  <img src"/images/LOGO-png3.png" alt="Logo">
-
-                </picture>
-                </div>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="page-scroll">
-                        <a href="#portfolio">功能</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">規格</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#install">安裝</a>
-                    </li>
-
-                    <li class="page-scroll">
-                        <a href="#contact">立即購買</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://www.facebook.com/huckhandwork">FB粉絲頁</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<div class="welcome">
+    <div id="welcomeindex">
+        <div class="row logoline"></div>
+            <div class="row topline"></div>
+        <div class="row visible-xs-block text-center">
+             <img src="/images/LOGO-png2.png" alt="Logo">
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-      <div class="row">
-         <picture>
-         <source srcset="/images/header_background2.png" media="(min-width: 480px)">
-         <source srcset="/images/header_background5.png" media="(max-width: 480px)">
-
-         <img src"/images/header_background.png" alt="Logo">
-
-         </picture>
-       </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"><br/><br/><br/>
-                    <h2>功能</h2>
-                    <hr class="star-primary primary2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 function">
-                <br/><br/><br/>
-                   <h2>6吋強力風扇!<br/></h2>
-                   <img src="/images/6fan.png" alt="Logo"><br/><br/>
-                   <h4>保持乾燥!<br/></h4>
-                   <h4>皮衣不再有臭味<br/></h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 function">
-                <br/><br/><br/>
-                   <h2>完美三角形!<br/></h2>
-                   <img src="/images/triangle.png" alt="Logo"><br/><br/>
-                   <h4>還把帥氣的裝備放在衣櫥裡?<br/></h4>
-                   <h4>釋放屬於你的騎士精神!<br/></h4>
-                </div>
-          </div>
-        </div>
-    </section>
-
-        <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"><br/><br/><br/>
-                    <h2>規格</h2>
-                    <hr class="star-light ">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12">
-                        <div class="text_area">
-                        <br/><br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        <font size="4">品名 / 熱血車手生活都很亂之三角關係衣帽架</font> <br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        <font size="4">尺寸 / (寬)54cm x (長)54cm x(高)182cm</font> <br/><br/>
-                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        <font size="4">材質 / 實木(厚度:18mm),鐵管(直徑27mm),6吋強力風扇(110v)</font>
-                        <br/><br/><br/><br/>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-                  <img src="images/size.jpg" alt="size">
-                </div>
-
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="text-center">
-                       <h2> 簡易開關款 </h2>
-                     <img src="/images/type2.png" alt="Logo"><br/>
-                     <h3>開關直接控制風扇</h3>
-                     <div class="price"> <h3>售價:4300元 </h3></div><br/><br/>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                   <div class="text-center">
-                   <h2> 懶人定時器款 </h2>
-                    <img src="/images/type1.png" alt="Logo"><br/>
-                    <h3>自行設定風扇時間,最長11小時</h3>
-                    <div class="price"><h3>售價:4800元 </h3></div><br/><br/>
-                   </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                   <div class="text-center">
-                   <h2> 超殺配件! </h2>
-                    <img src="/images/tube.png" alt="tube" class="tube_img"><br/><br/>
-                    <h3>金屬衣架 搭配 超級中導風管</h3>
-                    <div class="price"><h3>加購價只要: 1400元 </h3></div>
-                   </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-   <!-- Contact Install -->
-    <section id="install">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"><br/><br/><br/>
-                    <h2>安裝</h2>
-                    <hr class="star-primary primary2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 function">
-                <h4> 本產品透過設計讓安裝非常簡單,只需要幾個小步驟就可以完成 </h4>
-                   <img src="/images/install.png" alt="Logo"><br/>
-                   <h5>當然~ 還貼心的附上了工具! 就甘心</h5>
-                </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"><br/><br/><br/>
-                    <h2>立即購買</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-
-                <h3>訂單</h3><br/><br/><br/>
-
-                    <div class="btn btn-primary btn-lg">
-                        <%=link_to "點我填寫訂單" , "http://goo.gl/forms/JUwHZv4EaekmaTpt2",  style: "color:white"%>
-                    </div><br/><br/><br/>
-                </div>
-
-
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="row text-center">
-                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4
-                            col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
-                <h3>注意事項</h3> <br/><br/><br/>
-                </div>
-                </div>
-                  <div class="row">
-                   <div class="notice_area">
-                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                    <font size="4">以上為落地層架本體之售價, 不包含皮衣,安全帽,衣架或是其他配件</font>
-                     <br/><br/>
-                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                    <font size="4">售價皆不含運, 運費400元(東部/離島另計), 可貨到付款手續費60元</font>
-                    </span> <br/><br/>
-                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                    <font size="4">不接受議價, 哥賣的是熱血,是血汗錢</font>
-                    </span> <br/><br/><br/><br/>
-                   </div>
-                  </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-5">
-                        <h3>聯絡方式</h3>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <p>自取地點:</p>
-                                <p>台中市龍井區<br>藝術北街105號</p>
+        <div class="row welcomedata">
+            <div class="col-lg-5 col-md-5 col-sm-5 ">
+               <%= link_to product_triangle_1_path do %>
+                <div class="portfolio-box">
+                    <img src="/images/welcomeindex_1.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                車手生活都很亂
                             </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <p>電話:</p>
-                                <p>0930841212(浩克)</p>
+                            <div class="project-name">
+                                三角關係 衣帽架
                             </div>
                         </div>
-
-
                     </div>
-                    <div class="footer-col col-md-2">
-                        <h3>社群網站</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/huckhandwork" class="btn-social btn-outline">
-                                <i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://line.me/ti/p/3yKFTbMmuI" class="btn-social btn-outline">
-                                <img src="/images/espiar-line.png" alt="Line"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-5">
-                        <h3>關於我們團隊</h3>
-                        <div class="row">
-                          <div class="col-lg-6 col-lg-offset-4 col-md-6 col-md-offset-4  col-sm-6 col-sm-offset-4  col-xs-6 col-xs-offset-4 ">
-                            <div class="aboutme">
-                                一位摩拓車技師/<br/>
-                                一點不正經/<br/>
-                                一點粗曠/<br/>
-                                一點土炮/<br/>
-                                很多研究精神<br/>
-                                浩克手工, 勇往直前~<br/>
+                </div>
+                <% end %>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs index_logo ">
+                <img src="/images/LOGO-png1.png" alt="HUCK">
+            </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 welcomeimage">
+                    <%= link_to product_square_1_path do %>
+                <div class="portfolio-box">
+                    <img src="/images/welcomeindex_2.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    車手生活都很亂
+                                </div>
+                            <div class="project-name">
+                                <font color="yellow">新</font> 四角關係 衣帽架
                             </div>
-                          </div>
                         </div>
                     </div>
                 </div>
+                <% end %>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        HUCK手工傢俬 &copy; 2016
-                    </div>
+        <div class="row bottomline"></div>
+
+        <div class="row logoline">
+            <div class="text-center">
+                <div class="container">
+                        浩克手工傢俬 &copy; 2016
                 </div>
             </div>
         </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
-</body>
-
-</html>
+</div>
