@@ -21,6 +21,7 @@ gem 'aws-sdk-v1'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use jquery as the JavaScript library
+gem 'jquery-ui-rails'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
