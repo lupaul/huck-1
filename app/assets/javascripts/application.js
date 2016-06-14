@@ -15,4 +15,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
+//= requies scrollTop
+//= requies GA
 //= require_tree .
