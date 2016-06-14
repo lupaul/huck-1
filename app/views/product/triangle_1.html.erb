@@ -23,23 +23,23 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll">
-                      <a href="http://lit-hollows-69738.herokuapp.com/product/square_1"><b>雙人款</b></a>
+                      <a href="http://lit-hollows-69738.herokuapp.com/product/square_1" onClick="ga('send', 'event', [三角形], [功能表], [雙人款])"><b>雙人款</b></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">功能</a>
+                        <a href="#portfolio" onClick="ga('send', 'event', [三角形], [功能表], [功能])">功能</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">規格</a>
+                        <a href="#about" onClick="ga('send', 'event', [三角形], [功能表], [規格])">規格</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#install">安裝</a>
+                        <a href="#install" onClick="ga('send', 'event', [三角形], [功能表], [安裝])">安裝</a>
                     </li>
 
                     <li class="page-scroll">
-                        <a href="#contact">立即購買</a>
+                        <a href="#contact" onClick="ga('send', 'event', [三角形], [功能表], [購買])">立即購買</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="https://www.facebook.com/huckhandwork">FB粉絲頁</a>
+                        <a href="https://www.facebook.com/huckhandwork" onClick="ga('send', 'event', [三角形], [功能表], [粉絲頁])">FB粉絲頁</a>
                     </li>
                 </ul>
             </div>
@@ -185,7 +185,7 @@
                 <h3>訂單</h3><br/><br/><br/>
 
                     <div class="btn btn-primary btn-lg">
-                        <%=link_to "點我填寫訂單" , "http://goo.gl/forms/JUwHZv4EaekmaTpt2",  style: "color:white"%>
+                       <%=link_to "點我填寫訂單" , "http://goo.gl/forms/JUwHZv4EaekmaTpt2",  style: "color:white",onClick: "ga('send', 'event', [三方形], [連結], [購買])"%>
                     </div><br/><br/><br/>
                 </div>
 
@@ -241,11 +241,11 @@
                         <h3>社群網站</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/huckhandwork" class="btn-social btn-outline">
+                                <a href="https://www.facebook.com/huckhandwork" class="btn-social btn-outline" onClick="ga('send', 'event', [三角形], [底部], [粉絲頁])">
                                 <i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="http://line.me/ti/p/3yKFTbMmuI" class="btn-social btn-outline">
+                                <a href="http://line.me/ti/p/3yKFTbMmuI" class="btn-social btn-outline" onClick="ga('send', 'event', [三角形], [底部], [LINE])">
                                 <img src="/images/public_line.png" alt="Line"></a>
                             </li>
                         </ul>
