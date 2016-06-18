@@ -331,15 +331,14 @@ footer .aboutme {
 }
 
 
-#install {
+#otherproduct {
     color: #fff;
     background: #233140;
 }
 
-#install .function{
+#otherproduct .function{
     text-align:center;
 }
-
 
 #contact.notice_area{
     text-align: left;
