@@ -94,6 +94,7 @@ hr.star-primary:after {
 
 
 @media(min-width:768px) {
+
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -101,14 +102,15 @@ hr.star-primary:after {
         transition: padding .3s;
     }
 
-    .navbar-fixed-top .navbar-brand {
-        position: absolute;
-        left:5%;
-        top:-15px;
-    }
      .navbar-fixed-top .navbar-right{
         position: absolute;
         right:5%;
+     }
+
+     .navbar-fixed-top .navbar-brand {
+        position: absolute;
+        left:5%;
+        top:-15px;
      }
 }
 
