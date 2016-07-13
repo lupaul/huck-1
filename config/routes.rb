@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
     get 'product/triangle_1' => 'product#triangle_1'
     get 'product/square_1' => 'product#square_1'
+    get 'product/helmet_1' => 'product#helmet_1'
   # You can have the root of your site routed with "root"
    root 'welcome#index'
 
